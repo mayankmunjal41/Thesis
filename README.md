@@ -78,3 +78,19 @@ Through the analysis of a representative sample of Indian recipes and per capita
 Motivated by the global trend towards plant-based diets and their potential benefits for health and sustainability, this project addresses a significant gap in research within the Indian context.
 
 This interdisciplinary endeavor contributes to the fields of nutrition, economics, and public health. It offers valuable implications for policymakers, health professionals, and individuals interested in promoting sustainable and healthy dietary practices in India. Through its rigorous analysis and evidence-based approach, the project aims to foster dialogue and awareness regarding the feasibility and benefits of adopting vegan lifestyles in the Indian context.
+
+Introduction
+
+In recent years, dietary choices have garnered significant attention worldwide, with an increasing emphasis on sustainability, health, and ethical considerations. Within this landscape, the emergence of veganism as a dietary choice has sparked both curiosity and debate. In the Indian context, where food is deeply intertwined with cultural traditions and religious beliefs, the adoption of veganism presents a unique set of challenges and opportunities.
+
+The inspiration for this project stemmed from the observation of the limited adoption of veganism in India despite its potential benefits for health, sustainability, and animal welfare. While vegetarianism has long been prevalent in Indian culture, the transition to a fully plant-based diet remains relatively uncommon, particularly among urban households. This raises pertinent questions regarding the factors influencing dietary choices and the barriers hindering the mainstream acceptance of veganism in India.
+
+Against this backdrop, this research seeks to delve into the economic considerations shaping the adoption of plant-based diets in urban Indian households. By exploring the interplay between affordability, accessibility, and nutritional aspects of vegan alternatives to traditional Indian dishes, the project aims to shed light on the dynamics of dietary decision-making in urban India.
+
+Drawing upon a multidisciplinary approach, this study will leverage insights from nutrition and economics to provide a comprehensive understanding of the challenges and opportunities associated with veganism in urban India. The treatment will involve the collection of a representative sample of Indian recipes, detailing the ingredients used and the comparison between vegan and non-vegan options. This approach will enable a detailed examination of the cost differences between vegan and non-vegan food items commonly consumed in urban Indian households, providing empirical evidence to support the analysis.
+
+Furthermore, the incorporation of Indian recipes will facilitate a comprehensive assessment of the affordability and accessibility of vegan substitutes for traditional Indian dishes. Leveraging public data sources such as national household expenditure surveys and online grocery stores, the research will conduct a systematic analysis to uncover insights into the economic implications of transitioning to a plant-based diet. By examining household expenditure patterns and the availability of vegan alternatives in online marketplaces, the study aims to provide empirical evidence to inform discussions on adopting plant based diets. This approach underscores the project's commitment to addressing the economic dimensions of veganism and its potential role in shaping dietary behaviors in India.
+
+
+
+

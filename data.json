@@ -1,0 +1,8 @@
+{
+  "bit501": {
+    "Indian":      {"vegan": 435, "non-vegan": 565},
+    "American":      {"vegan": 168, "non-vegan": 832},
+    "Italian":      {"vegan": 211, "non-vegan": 789},
+    "Mexican":      {"vegan": 291, "non-vegan": 709}
+  }
+}

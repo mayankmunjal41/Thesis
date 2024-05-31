@@ -1,0 +1,666 @@
+/***** UNIVERSAL *****/
+
+.viz-title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33.04px */
+}
+
+body {
+    max-width: 1480px;
+    margin: 0 auto !important;
+}
+
+.flourish-credit {
+    display: none !important;
+}
+
+a {
+    color: inherit;
+}
+
+
+
+/***** FONTS ******/
+
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/***** HEADER BANNER ******/
+
+header {
+    background-image: url(./bannerimg-thesis.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+
+.subtitle {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118%;
+    width: fit-content;
+    background: #549b4e;
+    padding: 5px 20px;
+    color: #fffceb;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 70px;
+    color: #36342f;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118%;
+    width: 40%;
+    margin-top: 0;
+}
+
+.title,
+.subtitle {
+    margin-left: 18%;
+}
+
+.header-content {
+    padding-top: 22%;
+}
+
+/***** FORK VIZ ******/
+
+.fork-viz {
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.fork-viz .viz-title {
+    position: absolute;
+    left: 6%;
+    margin-top: 8%;
+    color: #FBEFDA;;
+}
+
+.fork-viz p:first-child {
+    font-size: 1.1em;
+    line-height: 200%;
+    width: 70%;
+    margin: 0 auto;
+    color: #FBEFDA;
+    font-weight: 400;
+    font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.fork-viz svg {
+    margin-top: 130px;
+    margin-left: -30px;
+}
+
+.fork {
+    position: absolute;
+    z-index: -2;
+    top: 125px;
+}
+
+#chart {
+    position: relative;
+}
+
+.highlight-green {
+    background: #91A767;
+    padding: 0 10px;
+}
+
+.highlight-red {
+    background: #e8754b;
+    padding: 0 10px;
+}
+
+#restartButton {
+    position: absolute;
+    left: 6%;
+    font-family: "PT Sans", sans-serif;
+    margin-top: -2.5%;
+    font-size: 16px;
+    padding: 2.5px 20px;
+    background:#FBEFDA;
+    border: none;
+}
+
+
+/***** CUisines VIZ ******/
+
+.cuisines-viz {
+    background: #FBEFDA;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.cuisines-viz .viz-title {
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.node:hover {
+    stroke-width: 7px !important;
+    opacity: 1 !important;
+}
+
+.cuisines-viz svg {
+    background-image: url("./pan.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.tooltip {
+    position: absolute;
+    color: #36342f;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    border: 1px solid #36342f;
+    pointer-events: none;
+}
+
+.pots {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cuisines-viz .pt-sans-regular {
+    width: 70%;
+    margin: 16px auto;
+    text-align: left;
+    line-height: 150%;
+    font-size: 1.1rem;
+
+}
+
+.pots-legend {
+    width: 48%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.pots-legend .item .color {
+    width: 22px;
+height: 14px;
+}
+
+.pots-legend .item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 22px;
+    font-family: "Pt Sans";
+    height: max-content;
+}
+
+.pots-legend .item p {
+    margin: 10px;
+}
+
+.herbs {
+    background: #91A767;
+}
+
+.vegetables {
+    background: #007832;
+}
+
+.oils {
+    background: #EF9145;
+}
+
+.dairy {
+    background: #E05011;
+}
+
+.grains {
+    background: #703A05;
+}
+
+.sauces {
+    background: #FCC10C;
+}
+
+.other {
+    background: #C0CDD3;
+}
+
+/***** GHG VIZ ******/
+
+.ghg-emissions {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.ghg-emissions .viz-title {
+    color: #fffceb;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 0;
+}
+
+ select {
+    outline: none !important;
+}
+
+.ghg-emissions .pt-sans-regular {
+    color: #fffceb;
+    line-height: 150%;
+    font-size: 1.1rem;
+}
+
+/***** TREEMAP ******/
+
+.treemap {
+    background: #FBEFDA;
+}
+
+.treemap main {
+    padding: 22px 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.treemap .viz-title {
+    text-align: center;
+}
+
+.treemap .pt-sans-regular {
+    line-height: 150%;
+    font-size: 1.1rem;
+}
+
+/***** Key Findings ******/
+
+.findings .viz-title {
+    color: #fffceb;
+    text-align: center;
+}
+
+.findings main {
+    margin: 0 auto;
+    padding: 30px 0;
+    padding-bottom: 60px;
+}
+
+.findings main img {
+    width: 100%;
+    margin-top: -40px;
+}
+
+/***** SUBSTITUTES ******/
+
+.substitutes .viz-title {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 120%;
+}
+
+.substitutes {
+    background: #FBEFDA;
+    height: auto;
+    padding: 30px 0;
+}
+
+.substitutes > main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.sub-desc {
+    width: 30%;
+    align-self: center;
+}
+
+.substitutes .pt-sans-regular {
+    line-height: 150%;
+    padding-right: 7%;
+    margin-top: 30px;
+}
+
+.substitutes .flourish-embed {
+    width: 55%;
+}
+
+#fl-layout-wrapper {
+    padding: 0;
+}
+
+/***** CONCLUSION ******/
+
+.conclusion {
+    padding: 30px 0;
+}
+
+.conclusion .viz-title {
+    text-align: center;
+    line-height: 120%;
+    color: #fffceb;
+}
+
+.conclusion .pt-sans-regular {
+    color: #fffceb;
+    line-height: 150%;
+}
+
+.conclusion main {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-data {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 5%;
+    color: #fffceb;
+}
+
+.conclusion .vegans {
+    margin-top: 3.5%;
+}
+
+.conclusion .vegans img {
+    width: 50%;
+}
+
+.conclusion .vegans p {
+    width: 40%;
+    margin: 0;
+}
+
+.conclusion .data p {
+    width: 45%;
+    margin-top: 50px;
+}
+
+.conclusion {
+    padding-bottom: 60px;
+}
+
+/***** RESEARCH ******/
+
+.research {
+    padding: 10px 0;
+    background: #FBEFDA;
+    padding-bottom: 5%;
+}
+
+.research .viz-title {
+    text-align: center;
+}
+
+.research .analysis {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5%;
+}
+
+.research .analysis img {
+    width: 55%;
+}
+
+.research .analysis div {
+    width: 40%;
+}
+
+.research .analysis p:first-child {
+   margin: 0;
+}
+
+.research > p {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3.5%;
+    line-height: 150%;
+}
+
+@media screen and (max-width: 1550px) {
+    .fork-viz svg {
+        margin-left: -150px;
+    }
+    
+    .fork {
+
+        margin-left: -120px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    header {
+        height: 600px;
+    }
+    .title {
+        font-size: 50px;
+    }
+
+    .subtitle {
+        font-size: 34px;
+    }
+
+    .header-content {
+        padding-top: 22%;
+    }
+
+    .fork-viz svg  {
+        
+       margin-left: -250px;
+    }
+
+    .fork {
+        margin-left: -200px;
+    }
+
+    .research .analysis img {
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .fork-viz svg  {
+        
+       margin-left: -250px;
+    }
+
+    .fork {
+        margin-left: -200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    header {
+        height: 600px;
+        background-size: 95%;
+    }
+    .title {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        font-size: 28px;
+    }
+
+    .viz-title {
+        font-size: 28px;
+    }
+
+    .title,.subtitle {
+        margin-left: 10%;
+    }
+
+    .header-content {
+        padding-top: 31%;
+    }
+
+    .fork-viz svg  {
+        
+       margin-left: -500px;
+    }
+
+    .fork {
+        margin-left: -450px;
+    }
+
+    .fork-viz .viz-title {
+        font-size: 22px;
+    }
+
+    .pots {
+        width: 80%;
+    }
+
+    .pots-legend {
+        width: 70%;
+    }
+    /* .cuisines-viz svg {
+        width: 150px;
+        height: 150px;
+    } */
+
+    .fork-viz p:first-child {
+        line-height: 150%;
+        width: 75%;
+        font-size: 18px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 767px) {
+    /* Styles specific to phones */
+    meta[name="viewport"] {
+      content: width=1024;
+    }
+  }
+/* 
+@media only screen and (max-width: 601px) {
+
+    header {
+        background-size: 95%;
+        height: 300px;
+    }
+
+    .header-content {
+        padding-top: 28%;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .title, .subtitle {
+        margin-left: 10%;
+    }
+
+    .fork-viz p:first-child {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .fork-viz svg  {
+        margin-left: -1100px;
+     }
+ 
+     .fork {
+         margin-left: -1050px;
+     }
+
+     .pots {
+        display: block;
+     }
+
+     .fork-viz .viz-title {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .viz-title {
+        font-size: 22px;
+        width: 80%;
+        margin: 16px auto;
+        padding-bottom: 16px;
+    }
+
+    .substitutes main {
+        flex-direction: column;
+    }
+
+    .substitutes .flourish-embed, .sub-desc {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+
+    .substitutes .pt-sans-regular {
+        padding: 0 5%;
+    }
+  } */
